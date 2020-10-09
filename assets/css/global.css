@@ -217,8 +217,61 @@ textarea {
 
 #section-product-content .products-area {
   width: var(--width);
-  margin-top: 40px;
+  margin-top: 40px;  
+}
+
+.product-articles-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-article {
+  width: 200px;
   
+}
+
+.product-name {
+  font: 500 14px Helvetica;
+  color: var(--color-font);
+  margin-top: 14px;
+}
+
+.product-descripion {
+  margin-top:10px;
+  height: 60px;
+}
+
+.product-old-price {
+  margin-bottom: 6px;
+}
+
+.product-price {
+  font: 700 16px Helvetica;
+  color: var(--color-font);
+  margin-bottom: 7px;
+}
+
+.product-installments {
+  margin-bottom: 10px;
+}
+
+.product-descripion, .product-old-price, .product-installments{
+  font: 500 12px Helvetica;
+  color: var(--color-font);
+}
+
+.button-buy-product {
+  width: 200px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid var(--color-border-inputs);
+  cursor: pointer;
+}
+
+.button-buy-product > span {
+  font: 500 16px Helvetica;
+  color: var(--color-font);
 }
 
 /* ========================== share-news-content ================================ */
