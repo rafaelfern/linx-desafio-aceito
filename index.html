@@ -6,8 +6,8 @@
   <title>Linx Compra</title>
   <link	rel="stylesheet" href="./assets/css/global.css">
 </head>
-<body id="root">
-  
+<body id="root" onload="loadApiCall()">
+
   <header id="header-content">
     <div class="header-sub-content">
       <div><span class="sub-title">Uma seleção de produtos</span></div>
@@ -35,7 +35,6 @@
 
     <section id="form-contact-content">
       <form>
-
         <div class="form-label-input">
           <span class="label-form">Seu nome</span>
           <input type="text" name="name" value=""/>
@@ -64,8 +63,66 @@
 
   </section>
 
-  <footer>
+  <section id="section-product-content">
+    
+    <hr/>
+    <div class="header-content"><header>Sua Seleção Especial</header></div>
+    <div class="products-area">
 
+      <article class="product-article">
+
+<!--         
+        <figure>
+          <img class="product-image" src=”” width="200" height="150" alt="">
+        </figure>
+        <p class="product-name"></p>
+        <p class="product-description"></p>
+        <p class="product-total-price"></p>
+        <p class="product-price"></p>
+        <p class="product-installments"></p>
+        <button>Comprar</button> -->
+
+      </article>
+
+    </div>
+
+  </section>
+ 
+  <!-- LISTA DE PRODUTOS -->
+
+  <section id="share-news-content">
+    
+    <hr/>
+    <div class="header-content"><header>Compartilhe a novidade</header></div>
+    <div class="news-description-content"><span>Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</span></div>
+
+    <section id="section-news-form">
+      <form>
+
+        <div class="news-form-inline">
+          <div class="form-label-input">
+            <span class="label-form">Nome do seu amigo:</span>
+            <input type="text" name="nomeAmigo" value=""/>
+          </div>
+          <div class="form-label-input">
+            <span class="label-form">Nome do seu amigo:</span>
+            <input type="text" name="nomeAmigo" value=""/>
+          </div>
+        </div>
+
+        <div class="news-button-content" >
+          <button>Enviar agora</button>
+        </div>
+
+      </form>
+    </section>
+  </section>
+
+  <footer>
+    <script></script>
   </footer>
+  
+  <script	type="text/javascript" src="./js/index.js"></script>
+
 </body>
 </html>
