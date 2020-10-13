@@ -68,20 +68,12 @@
     <hr/>
     <div class="header-content"><header>Sua Seleção Especial</header></div>
     <div class="products-area">
-      <section class="product-articles-content">
-        
-      </section>
-      <!-- <article class="product-article"> -->
-        <!-- <div > -->
-
-    
-        <!-- </div> -->
-      <!-- </article> -->
+      <section class="product-articles-content"></section>
+      <div><button class="button-more-products" onclick="setNextProductsItems()"><span>Ainda mais produtos aqui!</span></button></div>
+      <!-- <section class="product-articles-second-page-content"></section> -->
     </div>
 
   </section>
- 
-  <!-- LISTA DE PRODUTOS -->
 
   <section id="share-news-content">
     
@@ -90,29 +82,35 @@
     <div class="news-description-content"><span>Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</span></div>
 
     <section id="section-news-form">
-      <form>
+      <!-- <form method="post"> -->
 
         <div class="news-form-inline">
           <div class="form-label-input">
             <span class="label-form">Nome do seu amigo:</span>
-            <input type="text" name="nomeAmigo" value=""/>
+            <input type="text" id="nameFriendField" value=""/>
           </div>
           <div class="form-label-input">
-            <span class="label-form">Nome do seu amigo:</span>
-            <input type="text" name="nomeAmigo" value=""/>
+            <span class="label-form">E-mail:</span>
+            <input type="text" id="emailFriendField"  value="" onchange="verifyValidEmail()"/>
           </div>
         </div>
-
+        <div id="responseCheckedField"></div>
         <div class="news-button-content" >
-          <button>Enviar agora</button>
+          <button id="button-send-newsletter" onclick="sendNewsletter()"><span>Enviar agora</span></button>
         </div>
 
-      </form>
+      <!-- </form> -->
     </section>
   </section>
 
-  <footer>
-    <script></script>
+  <footer id="footer-content">
+    <div id="footer-sub-content">
+      <section class="footer-info-content">
+        <span>Testando habilidades em HTML, CSS e JS.</span><br/>
+        <span>Linx Impulse</span><br/>
+        <span>2019</span>
+      </section>
+    </div>
   </footer>
   
   <script	type="text/javascript" src="./js/index.js"></script>
