@@ -8,16 +8,16 @@ Desenvolvimento de uma lading page com uma lista de produtos e sessão de newsle
 <p>
    <h4><b>O que foi feito:</b></h4>
    <ul>
-    <li>Landing Page com grid de Produtos vindos da API</li>
-    <li>Para cada produto foi criado, pelo Javascript, um card dinâmico com as informações do produto</li>
+    <li>Landing Page com grid de Produtos vindos da API.</li>
+    <li>Para cada produto foi criado, pelo Javascript, um card dinâmico com as informações do produto.</li>
     <li>Quando houver um clique no botão de "Ainda mais produtos", uma segunda lista vai aparecer, abaixo da primeira, com novos produtos, sem atualizaço da página.</li>
-    <li>Sessão de Newsletter com campos validados na ordem: Campos vazios, e e-mail inválido</li>
-    <li>Commits foram feitos ao longo do desenvolvimento para manter ordem das features desenvolvidas</li>
+    <li>Sessão de Newsletter com campos validados na ordem: Campos vazios, e e-mail inválido.</li>
+    <li>Commits foram feitos ao longo do desenvolvimento para manter ordem das features desenvolvidas.</li>
    </ul>
    <h4><b>O que não foi feito:</b></h4>
    <ul>
-    <li>Não foi seguido o conceito e aplicabilidade do <i>Mobile First</i>, assim como a responsividade 100% conforme layout</li>
-    <li>Rodapé com transform skewY</li>
+    <li>Não foi seguido o conceito e aplicabilidade do <i>Mobile First</i>, assim como a responsividade 100% conforme layout.</li>
+    <li>Rodapé com transform skewY.</li>
    </ul>
   
 </p>
@@ -28,7 +28,7 @@ Desenvolvimento de uma lading page com uma lista de produtos e sessão de newsle
 ## Install
 
 ```sh
-Baixar e abrir o projeto no VSCode com a extesão Live Server
+Clonar e abrir o projeto no VSCode com a extesão Live Server. 
 ```
 
 ## Author
